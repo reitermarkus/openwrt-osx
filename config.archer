@@ -1,0 +1,20 @@
+CONFIG_TARGET_ar71xx=y
+CONFIG_TARGET_ar71xx_generic=y
+CONFIG_TARGET_ar71xx_generic_ARCHERC7=y
+CONFIG_LUCI_SRCDIET=y
+CONFIG_PACKAGE_grep=y
+CONFIG_PACKAGE_iperf3=y
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-app-commands=y
+CONFIG_PACKAGE_luci-base=y
+CONFIG_PACKAGE_luci-lib-ip=y
+CONFIG_PACKAGE_luci-lib-jsonc=y
+CONFIG_PACKAGE_luci-lib-nixio=y
+CONFIG_PACKAGE_luci-mod-admin-full=y
+CONFIG_PACKAGE_luci-proto-ipv6=y
+CONFIG_PACKAGE_luci-theme-bootstrap=y
+CONFIG_PACKAGE_nano=y
+CONFIG_PACKAGE_openssh-sftp-server=y
+CONFIG_PACKAGE_wpad=y
+CONFIG_PACKAGE_wpad-mesh=y
+# CONFIG_PACKAGE_wpad-mini is not set
