@@ -1,0 +1,8 @@
+#!/bin/sh
+
+repo="${0%/*}/repo"
+
+git -C "${repo}" pull
+
+"${repo}/scripts/feeds" update -a
+"${repo}/scripts/feeds" install -a

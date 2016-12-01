@@ -1,0 +1,21 @@
+#!/bin/sh
+
+repo="${0%/*}/repo"
+
+if [ ! -d "${repo}/.git" ]; then
+  git clone https://github.com/openwrt/openwrt "${repo}"
+fi
+
+brew tap homebrew/dupes
+
+brew install \
+  git \
+  coreutils \
+  findutils \
+  gawk \
+  gnu-getopt \
+  gnu-tar \
+  grep \
+  wget \
+  quilt \
+  xz
